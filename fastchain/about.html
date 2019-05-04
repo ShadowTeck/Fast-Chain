@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.css">
+    <title>Fast Chain</title>
+  </head>
+  <nav class="navbar">
+      <div class="container">
+        <div class="navbar-brand">
+          <a class="navbar-item" href="index.html" style="font-weight:bold;">
+           <img id="img-sel" src="img/fastchain-1.png" class="img-home" alt="">
+          </a>
+          <span class="navbar-burger burger" data-target="navMenu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
+        </div>
+        <div id="navMenu" class="navbar-menu">
+          <div class="navbar-end">
+            <a href="index.html" class="navbar-item">Home</a>
+            <a href="products.html" class="navbar-item">Products</a>
+            <a href="about.html" class="navbar-item is-active">About</a>
+            <a href="contact.html" class="navbar-item">Contact</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <body>
+      <section class="hero is-info is-medium has-bg-img2">
+        <div class="hero-body">
+          <div class="container">
+            <h1 style="font-size: 48px;" class="title">
+              About SD-WAN and how it's best networking solution.
+            </h1>
+            <div class="about-snip">
+            <div style="height: 250px;" class="text-box">
+              <p><span class="beg-letter">W</span>e are Fast Chain. We are upgrading the speed of modern networks used for public internet, while focusing on speed, security, and affordability.  Our company has low cost to operate and as we grow YOU will make more money. SD-WAN is software-defined networking. SD-WAN simplifies the management and operation of a WAN by decoupling the networking hardware from its control mechanism.It also works as a organizer to what route the users go to and puts them into the best route. Fast Chain was created to be a 24/7, full working network that can produce great service to its customers. (Security, Speed, and We also value the opinions and issues said from the customers. Our Solution is to make networks faster, secure, trustworthy, and thanks to the inexpensive product that we’re selling.
+              </p>
+            </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </body>
+    <script type="text/javascript">
+      (function() {
+        var burger = document.querySelector('.burger');
+        var nav = document.querySelector('#'+burger.dataset.target);
+        burger.addEventListener('click', function(){
+          burger.classList.toggle('is-active');
+          nav.classList.toggle('is-active');
+        });
+      })();
+    </script>
+    <footer class="footer1">
+      <nav style="background-color: #fff;" class="navbar">
+          <div class="container">
+            <div class="navbar-brand">
+              <a class="navbar-item" href="index.html" style="font-weight:bold;">
+               <img src="img/Fast-Chain-Logo.png" alt="">
+              </a>
+              <span class="navbar-burger burger" data-target="navMenu">
+                <span></span>
+                <span></span>
+                <span></span>
+              </span>
+            </div>
+            <p>© 2019 Fast Chain</p>
+            <div id="navMenu" class="navbar-menu">
+              <div class="navbar-end">
+                <a href="index.html" class="navbar-item is-active">Home</a>
+                <a href="blog.html" class="navbar-item">Products</a>
+                <a href="resources.html" class="navbar-item">About</a>
+                <a href="contact.html" class="navbar-item">Contact</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+    </footer>
+</html>
